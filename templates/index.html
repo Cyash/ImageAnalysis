@@ -1,0 +1,14 @@
+<!doctype html>
+   <title>Classify Images</title>
+   <h1>Classify Images</h1>
+   <form method=post enctype=multipart/form-data>
+		<p> type of detection
+          <select name="classify">
+            <option value="LABEL_DETECTION">LABEL_DETECTION</option>
+            <option value="FACE_DETECTION">FACE_DETECTION</option>
+            <option value="TEXT_DETECTION">TEXT_DETECTION</option>
+            <option value="LANDMARK_DETECTION">LANDMARK_DETECTION</option>
+          </select>
+		<p><input type=file name=file>
+		   <input type=submit value=Upload>   
+    </form>
